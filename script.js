@@ -1,4 +1,4 @@
-// Wyszukiwanie tematów (niebieski styl zostaje)
+// Wyszukiwanie tematów
 const searchInput = document.getElementById('searchInput');
 const topics = document.querySelectorAll('#topicList li');
 

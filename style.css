@@ -159,10 +159,57 @@ body.dark-mode .proposal-box button:hover {
   box-sizing: border-box;
 }
 
+.inf03-box {
+  position: absolute;
+  top: 20px;
+  left: 380px;      /* przesunięcie obok sidebar */
+  width: 300px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
-/* Tryb ciemny */
+.inf03-box h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.inf03-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inf03-box li {
+  background: #fff;
+  padding: 6px 15px;
+  margin: 5px 0;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  color: #333;
+}
+
+body.dark-mode .inf03-box {
+  background: #1e1e1e;
+  box-shadow: 0 2px 5px rgba(255,255,255,0.05);
+  color: #f0f0f0;
+}
+
+body.dark-mode .inf03-box li {
+  background: #2a2a2a;
+  color: #f0f0f0;
+  box-shadow: 0 1px 3px rgba(255,255,255,0.05);
+}
+
 body.dark-mode .code-box {
   background: #1e1e1e;
   color: #f0f0f0;
   border-left-color: #09ff00;
+}
+
+body.dark-mode .inf03-box h2 {
+  color: #ffffff;
 }

@@ -1,0 +1,29 @@
+  <!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>💻IT toolbox💻</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <p><h2><a href="https://ehumanreal.github.io/helppack/">← Powrót do listy tematów</a></h2></p>
+    <h1>Notatki</h1>
+    <h4>Zaleca się używanie pakietu LibreOffice</h4>
+    <input type="text" id="searchInput" placeholder="Szukaj notatki">
+
+    <ul id="topicList">
+        <li><p><a href="../inf03/notatki/MySQL14.11.2025.odt" download>📥 MySQL 14.11.2025 - LibreWriter</a></p></li>
+    </ul>
+  </div>
+
+  <script src="../script.js"></script>
+
+  <script>
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark-mode");
+  }
+</script>
+</body>
+</html>
