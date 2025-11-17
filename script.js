@@ -18,7 +18,7 @@ proposalForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
   const newTopic = document.getElementById("newTopic").value.trim();
-  const webhookURL = "https://discord.com/api/webhooks/1378716046625607721/T30erwD119-jOxGw8DgYXayw-Ou-pRKG0ezD153VytysH1LU3uqaqxjt8UejR-mW6Gb4";
+  const webhookURL = "https://discord.com/api/webhooks/1440027170524102676/N4NVf0o97-o1IS37DAtSHOSVC6YJ9NbOUhbQ9oNkFZeig7-Xi-f9VcYAys0iIcAv8co6";
 
   if (newTopic.length > 0) {
     const payload = {
