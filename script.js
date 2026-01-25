@@ -1,4 +1,4 @@
-// Wyszukiwanie tematów
+// funkcja wyszukiwania tematów w liście
 const searchInput = document.getElementById('searchInput');
 const topics = document.querySelectorAll('#topicList li');
 
@@ -10,7 +10,7 @@ searchInput.addEventListener('input', function () {
   });
 });
 
-// Webhook Discord – propozycje tematów
+// wysyłanie propozycji tematów na Discorda przez webhook
 const proposalForm = document.getElementById("proposalForm");
 const confirmationMessage = document.getElementById("confirmationMessage");
 
@@ -49,12 +49,12 @@ proposalForm.addEventListener("submit", function (e) {
 
 const toggleButton = document.getElementById("toggle-theme");
 
-// Sprawdzenie zapamiętanego motywu
+// sprawdzenie i przywrócenie motywu ciemnego z pamięci przeglądarki
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("dark-mode");
 }
 
-// Obsługa kliknięcia
+// przełączanie między trybem jasnym i ciemnym
 toggleButton.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   const isDark = document.body.classList.contains("dark-mode");
