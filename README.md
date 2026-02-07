@@ -1,4 +1,4 @@
-# 💻 IT Toolbox (0203)
+# 💻 Base0203
 
 Zbiór przydatnych narzędzi, notatek i poradników dla informatyków, przygotowany głównie z myślą o nauce i egzaminach zawodowych (kwalifikacja **INF.03**).
 
