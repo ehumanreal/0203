@@ -3,7 +3,7 @@ ZAPISZ JAKO index.html
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Link do pliku</title>
+  <title>Tytuł</title>
 </head>
 <body>
   <a href="test.txt">Pobierz plik test.txt</a>
