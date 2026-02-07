@@ -2,48 +2,56 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
-  <title>💻IT toolbox💻</title>
+  <title>💻Base0203💻</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- lewy pasek nawigacyjny -->
-  <div class="sidebar">
-    <!-- przycisk przełączania trybu jasny/ciemny -->
-    <button id="toggle-theme">🌙 Zmień tryb</button>
-    <h1>💻Just Toolbox💻</h1>
-    <!-- pole wyszukiwania tematów -->
-    <input type="text" id="searchInput" placeholder="Szukaj tematu...">
+  <div class="container">
+    <!-- lewy pasek nawigacyjny -->
+    <div class="sidebar">
+      <!-- przycisk przełączania trybu jasny/ciemny -->
+      <button id="toggle-theme">🌙 Zmień tryb</button>
+      <h1>Base0203 (0203)</h1>
+      <!-- pole wyszukiwania tematów -->
+      <input type="text" id="searchInput" placeholder="Szukaj tematu...">
 
-    <!-- lista głównych tematów -->
-    <ul id="topicList">
-      <li><a href="subpages/files.html">Instalki</a></li>
-      <li><a href="subpages/grub.html">GRUB - przywracanie</a></li>
-      <li><a href="subpages/systemy.html">Soon--Systemy operacyjne</a></li>
-      <li><a href="subpages/windows_tools.html">Windows - narzędzia</a></li>
-      <li><a href="subpages/netplan.html">Linux - Netplan</a></li>
-      <li><a href="subpages/linux_tools.html">Linux - narzędzia</a></li>
-    </ul>
-  </div>
+      <!-- lista głównych tematów -->
+      <div class="inf03-box sidebar-box">
+        <h2>Kwalifikacja INF02 + INF03</h2>
+        <ul class="topic-list">
+          <li><a href="subpages/files.html">Instalki</a></li>
+          <li><a href="subpages/grub.html">GRUB - przywracanie</a></li>
+          <li><a href="subpages/systemy.html">Soon--Systemy operacyjne</a></li>
+          <li><a href="subpages/windows_tools.html">Windows - narzędzia</a></li>
+          <li><a href="subpages/netplan.html">Linux - Netplan</a></li>
+          <li><a href="subpages/linux_tools.html">Linux - narzędzia</a></li>
+        </ul>
+      </div>
+    </div>
 
-  <!-- formularz do zaproponowania nowego tematu -->
-  <div class="proposal-box">
-    <h2>Zaproponuj nowy temat</h2>
-    <form id="proposalForm">
-      <input type="text" id="newTopic" placeholder="Wpisz temat..." required />
-      <button type="submit">Wyślij</button>
-    </form>
-    <p id="confirmationMessage" style="display:none; color: green; margin-top: 10px;">
-      Dziękujemy za propozycję!
-    </p>
-  </div>
+    <!-- Prawa kolumna z treścią -->
+    <div class="main-content">
+      <!-- sekcja notatek z kwalifikacji INF03 -->
+      <div class="inf03-box">
+        <h2>Kwalifikacja INF03</h2>
+        <ul class="topic-list">
+          <li><a href="inf03/list.html">Notatki z lekcji</a></li>
+          <li><a href="inf03/xampp.html">xampp</a></li>
+        </ul>
+      </div>
 
-  <!-- sekcja notatek z kwalifikacji INF03 -->
-  <div class="inf03-box">
-    <h2>Kwalifikacja INF03</h2>
-    <ul id="topicList">
-      <li><a href="inf03/list.html">Notatki z lekcji</a></li>
-      <li><a href="inf03/xampp.html">xampp</a></li>
-    </ul>
+      <!-- formularz do zaproponowania nowego tematu -->
+      <div class="proposal-box">
+        <h2>Zaproponuj nowy temat</h2>
+        <form id="proposalForm">
+          <input type="text" id="newTopic" placeholder="Wpisz temat..." required />
+          <button type="submit">Wyślij</button>
+        </form>
+        <p id="confirmationMessage" style="display:none; color: green; margin-top: 10px;">
+          Dziękujemy za propozycję!
+        </p>
+      </div>
+    </div>
   </div>
 
   <script src="script.js"></script>

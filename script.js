@@ -1,6 +1,6 @@
 // funkcja wyszukiwania tematów w liście
 const searchInput = document.getElementById('searchInput');
-const topics = document.querySelectorAll('#topicList li');
+const topics = document.querySelectorAll('.topic-list li');
 
 searchInput.addEventListener('input', function () {
   const filter = this.value.toLowerCase();
