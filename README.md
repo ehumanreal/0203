@@ -1,8 +1,8 @@
-# 💻 IT Toolbox (Helppack)
+# 💻 IT Toolbox (0203)
 
 Zbiór przydatnych narzędzi, notatek i poradników dla informatyków, przygotowany głównie z myślą o nauce i egzaminach zawodowych (kwalifikacja **INF.03**).
 
-Projekt jest dostępny online pod adresem: [ehumanreal.github.io/helppack](https://ehumanreal.github.io/0203/)
+Projekt jest dostępny online pod adresem: [ehumanreal.github.io/0203](https://ehumanreal.github.io/0203/)
 
 ## 📂 Struktura i Zawartość
 
